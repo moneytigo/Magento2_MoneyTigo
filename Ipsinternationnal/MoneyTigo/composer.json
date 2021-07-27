@@ -1,0 +1,26 @@
+{
+    "name": "ipsinternationnal/module-moneytigo",
+    "description": "Payment module for the moneytigo.com solution",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "email": "dev@moneytigo.com",
+            "name": "IPS Internationnal SAS"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ipsinternationnal\\MoneyTigo\\": ""
+        }
+    }
+}

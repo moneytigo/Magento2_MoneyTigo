@@ -1,0 +1,15 @@
+<div class="block">
+  <form name="moneytigo" method="post" action="https://payment.moneytigo.com">
+    <?php echo __('Please wait, you will be redirected to the payment form.') ?> <a href="javascript:document.moneytigo.submit();"> <?php echo __('or click here') ?></a>    
+    <?php
+    /**
+     * @var \Ipsinternationnal\MoneyTigo\Block\Display $block
+     */
+    echo $block->construct_phtml();
+    ?>
+  </form>
+</div>
+<script type="text/javascript">
+    document.getElementsByClassName("messages")[0].style.display= 'none';
+    document.moneytigo.submit();
+</script> 

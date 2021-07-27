@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<payment>
+			<moneytigo>
+				<active>1</active>
+				<model>Ipsinternationnal\MoneyTigo\Model\Payment\MoneyTigo</model>
+				<order_status>pending</order_status>
+				<title>Credit card payment</title>
+                <allowspecific>0</allowspecific>
+				<group>Offline</group>
+			</moneytigo>
+			<moneytigopnf>
+				<active>1</active>
+				<amountPNF>50</amountPNF>
+				<model>Ipsinternationnal\MoneyTigo\Model\Payment\MoneyTigoPNF</model>
+				<order_status>pending</order_status>
+				<title>Credit card payment (in 3 installments)</title>
+				<allowspecific>0</allowspecific>
+				<group>Offline</group>
+			</moneytigopnf>
+		</payment>
+	</default>
+</config>

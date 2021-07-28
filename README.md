@@ -23,6 +23,18 @@ Mandatory regeneration of Magento (Base and Schema)
 php bin/magento setup:upgrade
 ```
 
+MODULE SETTINGS
+===============
+
+Pour connecter le module à votre compte marchand MoneyTigo vous devez :
+1. Récupération de vos identifiants API :
+  * Ajouter votre site internet sur votre compte MoneyTigo
+  * Récupérer la clé API
+  * Généré la clé SECRETE puis la récupérer
+2. Configurer le module Magento (MoneyTigo)
+  * d
+4. Ensuite insérer ses informations dans votre configuration du module MoneyTigo sur votre Magento en allant à la page suivante : 
+5. Stores/Configuration/Payment Methods
 
 (**Note:** To test transactions, don't forget to switch your website (in your MoneyTigo interface, in test/demo mode) and switch it to production when your tests are finished.
 

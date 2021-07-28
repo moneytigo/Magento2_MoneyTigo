@@ -13,8 +13,6 @@
             "name": "IPS Internationnal SAS"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
     "autoload": {
         "files": [
             "registration.php"

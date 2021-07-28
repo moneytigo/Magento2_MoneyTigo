@@ -21,6 +21,15 @@ depending on the case or your version of composing you may have to use a method 
 composer require ipsinternationnal/module-moneytigo-magento2 --ignore-platform-reqs
 ```
 
+If you want to perform a manual installation it is also possible in this case you just have to create the following directories in the app/code directory of your Magento installation: 
+```
+Main directory : Ipsinternationnal (please respect upper & lower case)
+A subdirectory : MoneyTigo (please respect upper & lower case)
+
+This will give app/code/Ipsinternational/MoneyTigo/
+```
+Then copy the entire archive into the **MoneyTigo** directory.
+
 MODULE SETTINGS
 ===============
 To connect the module to your MoneyTigo merchant account you must:

@@ -14,6 +14,7 @@
         }
     ],
     "autoload": {
+        "classmap": ["Ipsinternationnal/MoneyTigo/Model/*/Config/VerifPNF.php", "Ipsinternationnal/MoneyTigo/Model/*/Payment/*"],
         "files": [
             "Ipsinternationnal/MoneyTigo/registration.php"
         ],

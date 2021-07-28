@@ -19,6 +19,7 @@
         ],
         "psr-4": {
             "Ipsinternationnal\\MoneyTigo\\": ""
-        }
+        },
+        "target-dir": "ipsinternationnal/module-moneytigo-magento2"
     }
 }

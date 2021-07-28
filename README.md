@@ -5,11 +5,13 @@ This payment module allows you to accept credit card payments through MoneyTigo.
 
 
 * Module version: 1.1.0
+* Composer required : 2.0 or more
 
 INSTALLATION AND ACTIVATION
 ===========================
 
 ### Installation with COMPOSER
+#### This is the recommended installation because it allows quick updates, so prefer the installation with COMPOSER
 > To install MoneyTigo payment module on Magento you just need to enter the following command: 
 > 
 > ```console
@@ -35,6 +37,13 @@ INSTALLATION AND ACTIVATION
 > ```console
 > php bin/magento module:enable Ipsinternationnal_MoneyTigo --clear-static-content
 > php bin/magento setup:upgrade
+> ```
+
+### Update installation with COMPOSER
+> ##### Attention only works if you had installed the module the first time with COMPOSER.
+> The update is simple, just enter the following command: 
+> ```console
+> composer update ipsinternationnal/module-moneytigo-magento2 --ignore-platform-reqs
 > ```
 
 MODULE SETTINGS

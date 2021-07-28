@@ -13,29 +13,29 @@ INSTALLATION AND ACTIVATION
 > To install MoneyTigo payment module on Magento you just need to enter the following command: 
 > 
 > ```console
-> [ssh@myserver]# composer require ipsinternationnal/module-moneytigo-magento2
+> composer require ipsinternationnal/module-moneytigo-magento2
 > ```
 > 
 > depending on the case or your version of composing you may have to use a method with some ignorance
 > 
 > ```console
-> $ composer require ipsinternationnal/module-moneytigo-magento2 --ignore-platform-reqs
+> composer require ipsinternationnal/module-moneytigo-magento2 --ignore-platform-reqs
 > ```
 ### Manual installation via FTP
-If you want to perform a manual installation it is also possible in this case you just have to create the following directories in the app/code directory of your Magento installation: 
-```
-Main directory : Ipsinternationnal (please respect upper & lower case)
-A subdirectory : MoneyTigo (please respect upper & lower case)
-
-This will give app/code/Ipsinternational/MoneyTigo/
-```
-Then copy the entire archive into the **MoneyTigo** directory.
-
-You will need to activate the module with the following commands: 
-```php
-php bin/magento module:enable Ipsinternationnal_MoneyTigo --clear-static-content
-php bin/magento setup:upgrade
-```
+> If you want to perform a manual installation it is also possible in this case you just have to create the following directories in the app/code directory of your Magento > installation: 
+> ```
+> Main directory : Ipsinternationnal (please respect upper & lower case)
+> A subdirectory : MoneyTigo (please respect upper & lower case)
+> 
+> This will give app/code/Ipsinternational/MoneyTigo/
+> ```
+> Then copy the entire archive into the **MoneyTigo** directory.
+> 
+> You will need to activate the module with the following commands: 
+> ```console
+> php bin/magento module:enable Ipsinternationnal_MoneyTigo --clear-static-content
+> php bin/magento setup:upgrade
+> ```
 
 MODULE SETTINGS
 ===============

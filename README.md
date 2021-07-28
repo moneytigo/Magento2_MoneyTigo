@@ -11,7 +11,7 @@ INSTALLATION AND ACTIVATION
 
 To install MoneyTigo plugin we invite you first : 
 
-1. Copy the folder "Ipsinternational" in the app/code folder of your Magento
+1. Copy the folder "Ipsinternationnal" in the app/code folder of your Magento
 2. Then to activate the module use the following commands: 
 
 Activation of the module

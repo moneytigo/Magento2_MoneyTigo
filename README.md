@@ -31,6 +31,12 @@ This will give app/code/Ipsinternational/MoneyTigo/
 ```
 Then copy the entire archive into the **MoneyTigo** directory.
 
+You will need to activate the module with the following commands: 
+```
+php bin/magento module:enable Ipsinternationnal_MoneyTigo --clear-static-content
+php bin/magento setup:upgrade
+```
+
 MODULE SETTINGS
 ===============
 To connect the module to your MoneyTigo merchant account you must:

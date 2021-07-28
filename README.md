@@ -15,6 +15,12 @@ To install MoneyTigo payment module on Magento you just need to enter the follow
 composer require ipsinternationnal/module-moneytigo-magento2
 ```
 
+depending on the case or your version of composing you may have to use a method with some ignorance
+
+```
+composer require ipsinternationnal/module-moneytigo-magento2 --ignore-platform-reqs
+```
+
 MODULE SETTINGS
 ===============
 To connect the module to your MoneyTigo merchant account you must:

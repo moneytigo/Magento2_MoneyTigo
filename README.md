@@ -27,11 +27,11 @@ MODULE SETTINGS
 ===============
 To connect the module to your MoneyTigo merchant account you must:
 
-# 1. Retrieving your API credentials
+## 1. Retrieving your API credentials
   * Add your website to your MoneyTigo account
   * Retrieve the API key (Merchant Key)
   * Generated the SECRET key and retrieved it
-# 2. Configure Magento plugins (MoneyTigo)
+## 2. Configure Magento plugins (MoneyTigo)
   * Click on "Stores" > "Configuration"
   * Then on the "Sales" tab > "Payment methods".
   * Just fill in the sections corresponding to MoneyTigo (MerchantKey & SecretKey)

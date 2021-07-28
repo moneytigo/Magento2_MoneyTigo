@@ -6,14 +6,17 @@ This payment module allows you to accept credit card payments through MoneyTigo.
 
 * Module version: 1.1.0
 
-# INSTALLATION FOR THE FIRST TIME
+INSTALLATION AND ACTIVATION
+===========================
 
 To install MoneyTigo plugin we invite you first : 
 
 * Copy the folder "Ipsinternational" in the app/code folder of your Magento
 * Ensuite pour activer le module utilisez les commandes suivantes : 
+```
 php bin/magento module:enable Ipsinternationnal_MoneyTigo --clear-static-content
 php bin/magento setup:upgrade
+```
 
 (**Note:** To test transactions, don't forget to switch your website (in your MoneyTigo interface, in test/demo mode) and switch it to production when your tests are finished.
 

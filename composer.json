@@ -14,12 +14,11 @@
         }
     ],
     "autoload": {
-        "classmap": ["Ipsinternationnal/MoneyTigo/Model/*/Config/VerifPNF.php", "Ipsinternationnal/MoneyTigo/Model/*/Payment/*"],
         "files": [
-            "Ipsinternationnal/MoneyTigo/registration.php"
+            "registration.php"
         ],
         "psr-4": {
-            "Ipsinternationnal\\MoneyTigo\\": ""
+            "ipsinternationnal\\module-moneytigo-magento2\\Ipsinternationnal\\MoneyTigo\\": ""
         }
     }
 }

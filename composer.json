@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "files": [
-            "ipsinternationnal\module-moneytigo-magento2\Ipsinternationnal\MoneyTigo\registration.php"
+            "ipsinternationnal/module-moneytigo-magento2/Ipsinternationnal/MoneyTigo/registration.php"
         ],
         "psr-4": {
             "Ipsinternationnal\\MoneyTigo\\": ""

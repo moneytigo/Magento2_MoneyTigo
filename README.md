@@ -36,10 +36,15 @@ To connect the module to your MoneyTigo merchant account you must:
   * Then on the "Sales" tab > "Payment methods".
   * Just fill in the sections corresponding to MoneyTigo (MerchantKey & SecretKey)
 
+TEST MODE
+==========
+
 (**Note:** To test transactions, don't forget to switch your website (in your MoneyTigo interface, in test/demo mode) and switch it to production when your tests are finished.
 
 If you use the test mode you must use the following virtual credit cards:
 * **Payment approved** : Card n° 4000 0000 0000 0002 , Expiry 12/22 , Cvv 123
 * **Payment declined** : Card n° 4000 0000 0000 0036 , Expiry 12/22, Cvv 123
 * **(Virtual cards do not work in production mode)**
+
+### Don't forget to disable the test mode when you are ready to accept real transactions. 
 

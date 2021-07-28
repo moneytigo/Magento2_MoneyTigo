@@ -14,10 +14,15 @@ To install MoneyTigo plugin we invite you first :
 1. Copy the folder "Ipsinternational" in the app/code folder of your Magento
 2. Then to activate the module use the following commands: 
 
+Activation of the module
 ```
 php bin/magento module:enable Ipsinternationnal_MoneyTigo --clear-static-content
+```
+Mandatory regeneration of Magento (Base and Schema)
+```
 php bin/magento setup:upgrade
 ```
+
 
 (**Note:** To test transactions, don't forget to switch your website (in your MoneyTigo interface, in test/demo mode) and switch it to production when your tests are finished.
 

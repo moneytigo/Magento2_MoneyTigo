@@ -25,16 +25,16 @@ php bin/magento setup:upgrade
 
 MODULE SETTINGS
 ===============
+To connect the module to your MoneyTigo merchant account you must:
 
-Pour connecter le module à votre compte marchand MoneyTigo vous devez :
-1. Récupération de vos identifiants API :
-  * Ajouter votre site internet sur votre compte MoneyTigo
-  * Récupérer la clé API
-  * Généré la clé SECRETE puis la récupérer
-2. Configurer le module Magento (MoneyTigo)
-  * d
-4. Ensuite insérer ses informations dans votre configuration du module MoneyTigo sur votre Magento en allant à la page suivante : 
-5. Stores/Configuration/Payment Methods
+# 1. Retrieving your API credentials
+  * Add your website to your MoneyTigo account
+  * Retrieve the API key (Merchant Key)
+  * Generated the SECRET key and retrieved it
+# 2. Configure Magento plugins (MoneyTigo)
+  * Click on "Stores" > "Configuration"
+  * Then on the "Sales" tab > "Payment methods".
+  * Just fill in the sections corresponding to MoneyTigo (MerchantKey & SecretKey)
 
 (**Note:** To test transactions, don't forget to switch your website (in your MoneyTigo interface, in test/demo mode) and switch it to production when your tests are finished.
 

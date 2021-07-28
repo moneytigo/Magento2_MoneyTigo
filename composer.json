@@ -1,5 +1,5 @@
 {
-    "name": "ipsinternationnal/module-moneytigo",
+    "name": "ipsinternationnal/module-moneytigo-magento2",
     "description": "MAGENTO 2 payment module for MoneyTigo.com solution",
     "type": "magento2-module",
     "version": "1.1.0",

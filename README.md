@@ -12,7 +12,7 @@ INSTALLATION AND ACTIVATION
 ### Installation with COMPOSER
 To install MoneyTigo payment module on Magento you just need to enter the following command: 
 
-```bash
+```shell
 composer require ipsinternationnal/module-moneytigo-magento2
 ```
 

@@ -8,7 +8,7 @@
 				<order_status>pending</order_status>
 				<title>Credit card payment</title>
                 <allowspecific>0</allowspecific>
-				<group>Offline</group>
+				<group>moneytigo_group</group>
 			</moneytigo>
 			<moneytigopnf>
 				<active>1</active>
@@ -17,7 +17,7 @@
 				<order_status>pending</order_status>
 				<title>Credit card payment (in 3 installments)</title>
 				<allowspecific>0</allowspecific>
-				<group>Offline</group>
+				<group>moneytigo_group</group>
 			</moneytigopnf>
 		</payment>
 	</default>
